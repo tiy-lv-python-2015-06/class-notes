@@ -1,0 +1,6 @@
+ipython[all]==3.1
+pytest==2.7.0
+matplotlib==1.4.3
+seaborn==0.5.1
+bokeh==0.8.2
+numpy==1.9.2
