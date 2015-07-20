@@ -1,3 +1,18 @@
+#Student table
+CREATE TABLE public.student (
+  id SERIAL PRIMARY KEY NOT NULL, 
+  name CHARACTER VARYING(50) NOT NULL,
+  email CHARACTER VARYING(50) NOT NULL,
+  address INTEGER
+);
+
+#Address Table
+CREATE TABLE public.address (
+  id SERIAL PRIMARY KEY NOT NULL,
+  city CHARACTER VARYING(25) NOT NULL,
+  state CHARACTER VARYING(20) NOT NULL,
+  zip INTEGER NOT NULL
+);
 
 #Insert some values into our tables
 INSERT INTO student (name, email, address) VALUES ('Frodo Baggins', 'frodo@theshire.com', 0);
